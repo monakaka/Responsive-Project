@@ -1,0 +1,79 @@
+/* google fonts import links here  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* universal selector and css  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish";
+}
+
+/* css variable custom property  */
+:root {
+    --primary-title-color: #FF5400;
+}
+
+/* common and html tags css styles are here  */
+span {
+    color: var(--primary-title-color);
+}
+
+/* this class and style is related with phone or small size devices */
+.nav-bars-icon {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    display: none;
+}
+
+/* header part css is here  */
+.header {
+    width: 81%;
+    margin: 50px auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .nav-logo-name {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-logo {
+    width: 56px;
+    object-fit: cover;
+}
+
+.nav-container .nav-logo-name .nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-container .nav-list-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #424247;
+    font-size: 1.13rem;
+}
+
+.nav-container .nav-list-container>li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-container .nav-list-container #list-home {
+    font-weight: 700;
+}
+
+/* Banner part styles are here ......... */
+
