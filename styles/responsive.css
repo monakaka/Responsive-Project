@@ -105,12 +105,15 @@
     }
 
     .newsletter-img {
-        min-height: 100%;
+        width: 100%;
+
     }
 
     .offer-card {
         padding: 10px;
         position: absolute;
+        top: 42vh;
+        left: 64vh;
     }
 
     .offer-card>h6 {
@@ -138,7 +141,7 @@
     }
 
     .footer-title>img {
-        width: 30px;
+        width: 45px;
     }
 
     .footer-description {
