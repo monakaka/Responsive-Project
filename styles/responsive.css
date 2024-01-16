@@ -112,8 +112,9 @@
     .offer-card {
         padding: 10px;
         position: absolute;
-        bottom: 10%;
-        right: 0;
+        bottom: 14%;
+        right: 3%;
+        width: 40%;
     }
 
     .offer-card>h6 {

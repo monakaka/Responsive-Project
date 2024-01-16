@@ -422,9 +422,13 @@ main {
     background: #FF5400;
     padding: 16px;
     position: absolute;
-    bottom: 5.2%;
-    right: 2px;
-    transform: rotate(-19deg);
+    width: 30%;
+    bottom: 8%;
+    right: 1px;
+    transform: rotate(-20deg);
+    /* bottom: 5.2%; */
+    /* right: 2px; */
+    /* transform: rotate(-19deg); */
 }
 
 .offer-card>h6 {
