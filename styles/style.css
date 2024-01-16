@@ -414,7 +414,7 @@ main {
     min-height: 422px;
     position: relative;
     width: 60%;
-}
+    }
 
 /* offer card on the image  */
 .offer-card {
@@ -422,9 +422,9 @@ main {
     background: #FF5400;
     padding: 16px;
     position: absolute;
-    top: 50vh;
-    left: 72vh;
-    transform: rotate(-25deg);
+    bottom: 5.2%;
+    right: 2px;
+    transform: rotate(-19deg);
 }
 
 .offer-card>h6 {

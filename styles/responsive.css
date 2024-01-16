@@ -112,8 +112,8 @@
     .offer-card {
         padding: 10px;
         position: absolute;
-        top: 42vh;
-        left: 64vh;
+        bottom: 10%;
+        right: 0;;
     }
 
     .offer-card>h6 {
