@@ -210,6 +210,7 @@ main {
 .popular-tour-list {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .popular-tour-list>li {
@@ -421,8 +422,8 @@ main {
     background: #FF5400;
     padding: 16px;
     position: absolute;
-    top: 70%;
-    left: 66%;
+    top: 53vh;
+    left: 71vh;
     transform: rotate(-25deg);
 }
 
