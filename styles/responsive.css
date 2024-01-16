@@ -101,6 +101,7 @@
 
     .newsletter-form {
         padding: 30px;
+        width: fit-content;
     }
 
     .newsletter-img {
@@ -110,8 +111,6 @@
     .offer-card {
         padding: 10px;
         position: absolute;
-        /* top: 80%;
-        left: 50%; */
     }
 
     .offer-card>h6 {

@@ -385,6 +385,7 @@ main {
     padding: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
+    width: 35%;
 }
 
 .news-letter-input {
@@ -408,6 +409,7 @@ main {
 .newsletter-img {
     min-height: 422px;
     position: relative;
+    flex: 1;
 }
 
 /* offer card on the image  */
@@ -416,8 +418,8 @@ main {
     background: #FF5400;
     padding: 16px;
     position: absolute;
-    top: 67%;
-    left: 59.7%;
+    top: 70%;
+    left: 66%;
     transform: rotate(-25deg);
 }
 
