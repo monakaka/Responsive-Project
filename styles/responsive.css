@@ -122,5 +122,24 @@
     .footer-area{
         padding: 30px;
     }
+    .footer-content-container{
+        width: 100%;
+    }
+    .footer-title{
+        align-items: center;
+    }
 
+        .footer-title>h2 {
+            font-size: 6vh;
+        }
+        .footer-title>img{
+            width: 30px;
+        }
+    
+        .footer-description {
+           font-size: 3vh;
+        }
+        #copyrights{
+            font-size: 2vh;
+        }
 }
