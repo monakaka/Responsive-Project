@@ -385,7 +385,6 @@ main {
     padding: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    width: 30%;
 }
 
 .news-letter-input {
@@ -409,7 +408,6 @@ main {
 .newsletter-img {
     min-height: 422px;
     position: relative;
-    flex: 1;
 }
 
 /* offer card on the image  */
@@ -426,13 +424,13 @@ main {
 .offer-card>h6 {
     color: #FFF;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 .offer-card>h3 {
     text-align: center;
     color: #FFF;
-    font-size: 5vh;
+    font-size: 3vh;
     font-weight: 800;
 }
 

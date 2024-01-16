@@ -101,14 +101,17 @@
 
     .newsletter-form {
         padding: 30px;
-        width: 81%;
+    }
+
+    .newsletter-img {
+        min-height: 100%;
     }
 
     .offer-card {
         padding: 10px;
         position: absolute;
-        top: 80%;
-        left: 50%;
+        /* top: 80%;
+        left: 50%; */
     }
 
     .offer-card>h6 {
@@ -119,27 +122,31 @@
         font-size: 3vh;
     }
 
-    .footer-area{
+    .footer-area {
         padding: 30px;
     }
-    .footer-content-container{
+
+    .footer-content-container {
         width: 100%;
     }
-    .footer-title{
+
+    .footer-title {
         align-items: center;
     }
 
-        .footer-title>h2 {
-            font-size: 6vh;
-        }
-        .footer-title>img{
-            width: 30px;
-        }
-    
-        .footer-description {
-           font-size: 3vh;
-        }
-        #copyrights{
-            font-size: 2vh;
-        }
+    .footer-title>h2 {
+        font-size: 6vh;
+    }
+
+    .footer-title>img {
+        width: 30px;
+    }
+
+    .footer-description {
+        font-size: 3vh;
+    }
+
+    #copyrights {
+        font-size: 2vh;
+    }
 }
