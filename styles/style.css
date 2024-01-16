@@ -22,8 +22,7 @@ span {
 
 .common-title {
     color: #131318;
-    font-family: Mulish;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
@@ -43,6 +42,16 @@ span {
     border-radius: 8px;
     background-color: #FF5400;
     margin-top: 30px;
+}
+
+.secondary-button {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    position: relative;
+    padding: 16px 34px;
+    color: #FFF;
 }
 
 /* this class and style is related with phone or small size devices */
@@ -123,7 +132,7 @@ a {
 
 .banner-title {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
 }
 
@@ -142,7 +151,7 @@ a {
     background: rgba(255, 255, 255, 0.30);
 }
 
-.banner-input-container>div{
+.banner-input-container>div {
     position: relative;
 }
 
@@ -159,16 +168,6 @@ a {
     position: absolute;
     top: 35%;
     left: 80%;
-}
-
-.button {
-    width: 100%;
-    border: none;
-    border-radius: 8px;
-    background-color: orangered;
-    position: relative;
-    padding: 16px 34px;
-    color: #FFF;
 }
 
 .custom-icon-btn {
@@ -247,33 +246,22 @@ main {
 
 #srilanka {
     grid-area: srilanka;
-    object-fit: cover;
 }
 
 #north-america {
     grid-area: america;
-    width: 120%;
-    position: relative;
-    right: 1%;
 }
 
 #kashmir {
     grid-area: kashmir;
-    width: 80%;
-    position: relative;
-    left: 20%;
 }
 
 #bangladesh {
     grid-area: bangladesh;
-    width: 120%;
 }
 
 #bandarban {
     grid-area: bandarban;
-    width: 88%;
-    position: relative;
-    left: 12%;
 }
 
 .destination-img-container {
@@ -281,9 +269,9 @@ main {
     display: grid;
     gap: 24px;
     grid-template-areas:
-        'maldives maldives maldives indonesia indonesia indonesia'
-        'srilanka srilanka america america kashmir kashmir'
-        'bangladesh bangladesh bandarban bandarban bandarban bandarban';
+        'maldives maldives maldives maldives maldives maldives indonesia indonesia indonesia indonesia indonesia indonesia'
+        'srilanka srilanka srilanka srilanka america america america america america kashmir kashmir kashmir'
+        'bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban bandarban bandarban bandarban bandarban bandarban';
 }
 
 .destination-img-container>div>img {
@@ -323,7 +311,7 @@ main {
 
 .card-title {
     color: #131318;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     margin-top: 32px;
     margin-bottom: 16px;
@@ -349,4 +337,137 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+/* nesletter styles are here ........ */
+
+.newsletter-container {
+    margin-top: 100px;
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter-container .newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-container .newsletter-description {
+    color: var(--secondary-font-color);
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+#hr-tag {
+    border: 1px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.newsletter-form {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 40%;
+}
+
+.news-letter-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-letter-input>input {
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-img {
+    height: 422px;
+    position: relative;
+}
+
+/* offer card on the image  */
+.offer-card {
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 16px;
+    position: absolute;
+    top: 67%;
+    left: 55.5%;
+    transform: rotate(-25deg);
+}
+
+.offer-card>h6 {
+    color: #FFF;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.offer-card>h3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 5vh;
+    font-weight: 800;
+}
+
+/* footer section styles here  */
+.footer-area {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 110px 300px;
+    display: none;
+}
+
+.footer-content-container {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.footer-title {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer-title>h2 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: var(--secondary-font-color);
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.social-media-list>a>i {
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#footer-hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+#copy-rights {
+    color: #131318;
+    font-family: Inter;
+    font-weight: 300;
 }

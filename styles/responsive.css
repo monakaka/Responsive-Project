@@ -15,4 +15,117 @@
     .nav-bars-icon {
         display: block;
     }
+
+    .banner-information-container {
+        width: 90%;
+    }
+
+    .banner-title {
+        font-size: 4vh;
+    }
+
+    .banner-description {
+        font-size: 2vh;
+        margin-bottom: 40px;
+    }
+
+    .banner-input-container {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-tour-container {
+        flex-direction: column;
+    }
+
+    .popular-tour-info {
+        width: 100%;
+    }
+
+    .popular-tour-img {
+        width: 100%;
+    }
+
+    .popular-tour-img>img {
+        width: 100%;
+    }
+
+    .popular-tour-title {
+        font-size: 4vh;
+        margin-bottom: 20px;
+    }
+
+    .choose-destination-info {
+        width: 100%;
+    }
+
+    .common-title {
+        font-size: 3vh;
+    }
+
+    .destination-section-description {
+        font-size: 2vh;
+    }
+
+    .destination-img-container {
+        grid-template-areas:
+            'maldives'
+            'indonesia'
+            'srilanka'
+            'america'
+            'kashmir'
+            'bangladesh'
+            'bandarban';
+
+    }
+
+    .why-choose-area .why-choose-info {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card {
+        padding: 40px;
+        flex-basis: 100%;
+    }
+
+    .card-title {
+        font-size: 3vh;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .newsletter-form {
+        padding: 30px;
+        width: 81%;
+    }
+
+    .offer-card {
+        border-radius: 16px;
+        background: #FF5400;
+        /* width: 55%; */
+        padding: 10px;
+        position: absolute;
+        top: 77%;
+        left: 42%;
+        transform: rotate(-25deg);
+    }
+
+    .offer-card>h6 {
+        color: #FFF;
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    .offer-card>h3 {
+        text-align: center;
+        color: #FFF;
+        font-size: 3vh;
+        font-weight: 800;
+    }
+
 }
