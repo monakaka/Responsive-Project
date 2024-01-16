@@ -105,27 +105,18 @@
     }
 
     .offer-card {
-        border-radius: 16px;
-        background: #FF5400;
-        /* width: 55%; */
         padding: 10px;
         position: absolute;
-        top: 77%;
-        left: 42%;
-        transform: rotate(-25deg);
+        top: 80%;
+        left: 50%;
     }
 
     .offer-card>h6 {
-        color: #FFF;
-        text-align: center;
         font-size: 2vh;
     }
 
     .offer-card>h3 {
-        text-align: center;
-        color: #FFF;
         font-size: 3vh;
-        font-weight: 800;
     }
 
 }
