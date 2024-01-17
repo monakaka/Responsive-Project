@@ -343,15 +343,63 @@ main {
 }
 
 .card-2 {
-    border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
 
 .card-3 {
-    border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+/* safety and security area  */
+.safety-security-area {
+    margin-top: 100px;
+}
+
+.safety-security-itro {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-description {
+    margin-top: 5px;
+    font-size: var(--secondary-font-color);
+    line-height: 26px;
+}
+
+.safety-security-info-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.safety-security-info {
+    width: 50%;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.safety-security-info>h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.safety-security-info>p {
+    margin-top: 10px;
+}
+
+.safety-security-img {
+    width: 50%;
+}
+
+.safety-security-img>img {
+    width: 100%;
 }
 
 /* nesletter styles are here ........ */
@@ -414,7 +462,7 @@ main {
     min-height: 422px;
     position: relative;
     width: 60%;
-    }
+}
 
 /* offer card on the image  */
 .offer-card {

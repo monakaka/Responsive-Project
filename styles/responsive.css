@@ -84,6 +84,31 @@
         text-align: center;
     }
 
+
+.safety-security-info-img-container{
+    flex-direction: column;
+}
+.safety-security-itro{
+    width: 90%;
+}
+.safety-title{
+    font-size: 6vh;
+}
+.safety-security-info{
+    width: 100%;
+    box-shadow: none;
+    text-align: center;
+}
+.safety-security-img {
+    width: 100%;
+}
+.safety-security-info>h3 {
+    font-size: 4vh;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
     .card {
         padding: 40px;
         flex-basis: 100%;
